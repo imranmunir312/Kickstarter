@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "compile": "node compile.js",
+    "deploy": "node deploy.js",
     "test": "jest --verbose false"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
     "fs-extra": "^10.0.1",
     "ganache": "^7.0.2",
     "solc": "^0.8.12",
